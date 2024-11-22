@@ -1,0 +1,21 @@
+1: Utwórz tabele przechowujące dane klientów, faktury, pozycje faktur, płatności oraz nadpłaty.
+
+Tabele powinny przechowywać następujące dane:
+
+klienci: nazwa przedsiębiorcy, numer konta bankowego, NIP,
+faktury: numer, data wystawienia, termin płatności, suma brutto,
+pozycje faktury: nazwa produktu, ilość, cena,
+płatności: tytuł płatności, kwota, data wpłaty, numer konta bankowego wpłaty.
+Tabele powinny być wypełnione przykładowymi danymi tak, aby można było zobrazować poniższe założenia.
+
+Prosimy o napisanie kodu realizującego następujące zadania:
+
+raport wyświetlający nadpłaty na koncie klienta,
+raport wyświetlający niedopłaty za faktury,
+raport wyświetlający nierozliczone faktury po terminie płatności.
+Raporty powinny mieć możliwość sortowanie oraz filtrowania wyświetlanych danych.
+
+Przesłany kod powinien być napisany bez wykorzystania frameworków oraz systemów szablonów.
+
+
+Uwaga: Oba zadania powinny być napisane obiektowo z wykorzystaniem najnowszych rozwiązań w języku PHP 8 z wykorzystaniem standardu min. PSR-7.
